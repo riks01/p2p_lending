@@ -1,7 +1,3 @@
-![peervest](http://www.peervest.online/img/peervest.png)  
-(http://www.peervest.online)  
-**A P2P Lending Robo-Advisor Using a Neural Network (Classification, Probability of Default) and a Random Forest (Regression, Annualized Returns)**  
-*Alex Shropshire*
   
 ### Business Understanding  
 PeerVest helps investors augment their portfolio by intelligently allocating funds to Peer-to-Peer Lending Marketplaces using machine learning to assess risk and predict return, starting with pools of investable loans on LendingClub.com. LendingClub is incentivized to increase marketplace transactions. Driven by ease-of-use, their off-the-shelf credit risk assessments score risk in grouped buckets. On a loan-by-loan basis, this is inefficient given each loan's uniqueness and the sheer amount of data collected. PeerVest recommends the best loans to invest in given a user’s available funds, maximum risk tolerance, and minimum desired annualized return.
@@ -70,10 +66,6 @@ But, we can become much more confident in our prediction if we know something ab
 - Mean Squared Error: 0.001  
 - Root Mean Squared Error: 0.04  
 
-### Deployment  
-(http://www.peervest.online)
-  
-The model has been deployed on the web as a Flask app hosted on an Amazon Web Services EC2 instance, utilizing HTML, CSS, and Brython. It can collect a user’s maximum risk tolerance and their corresponding minimum desired portfolio return, and output a comprehensive list of loans currently live on LendingClub.com based on my model's recommendation.
 
 **Important Terms & Concepts**:  
 - **Peer-to-Peer Lending (aka P2P, Crowdlending)**: the practice of lending money to individuals or businesses through online services that match lenders with borrowers. Because of their online-only nature and low overhead, generally, lenders can earn higher returns compared to savings and investment products offered by banks, while borrowers can borrow money at lower interest rates.  
