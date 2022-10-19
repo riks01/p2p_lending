@@ -81,17 +81,6 @@ But, we can become much more confident in our prediction if we know something ab
 - Formula: Shrop Ratio = ( Portfolio Returns - Risk-Free Rate ) / Portfolio Dollar Weighted Average Probability of Default   
 - Similar to the more popular Sharpe Ratio, the Shrop Ratio instead uses the highly accurate Probability of Default Neural Network model to quantify portfolio risk in the denominator rather than the Sharpe Ratio's typical method of using the standard deviation of historical portfolio returns to quantify volatility. This figure is simply used to compare loans side-by-side on a risk-adjusted return basis, under the assumption that my Probability of Default Neural Network is more indicative of risk than historical standard deviation could possibly be. The higher the Shrop Ratio number, the better the investment according to my process and models.  
 
-**Personal Implementation**  
-Next Steps Upon Downloading the Recommendation CSV:  
-- Use Loan IDs in the downloaded CSV to guide your investments on LendingClub.com!  
-- Click Path: [Click Here](https://www.lendingclub.com/auth/login) > Login (or Create Account) > Invest > Manual Investing > More Filters > Filter by Loan ID > Add $  
-![lc.com_screenshot_readme](static/img/lc.com_screenshot_readme.png)
-  
-Optimal Diversification:  
-- There are often less than 100 available investments at any given time on LendingClub.com, though an optimized loan portfolio should contain at least 100 different loans to adequately reduce lack of diversification risk 
-- From LendingClub: Accounts with fewer than 100 total Notes have been much more likely to see negative returns
-
-
 
 **Future App Work - User Stories**  
 - As a user, I want to know if the app recommendations will make me more money than the off-the-shelf LendingClub/Prosper recommendations.  
