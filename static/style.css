@@ -1,0 +1,36 @@
+html {
+    font-family: sans-serif;
+    background-image: url("img/wallpaper.jpg");
+    /* background-attachment: fixed;*/
+    text-align: center;
+}
+
+body {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 5px solid black;
+    border-radius: 30px;
+    background-color: #e9eff2;
+}
+
+div.result {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+dl {
+    text-align: left;
+    margin-right: 10px;
+}
+
+dt {
+    font-weight: bold;
+
+}
+
+div.summary_out {
+    border-style: double;
+}
